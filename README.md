@@ -6,68 +6,68 @@
 ## Overview
 **BioTrace Hubs** is an open-hardware and technical documentation repository for decentralized abattoir biowaste interception and circular bioconversion. 
 
-Stationed directly at municipal slaughterhouses (baseline: Kumba Central Abattoir), the hub intercepts bovine blood effluent and wet rumen content before environmental discharge, transforming toxic waste into two high-value agricultural inputs:
-1. **Terra-Gold Foliar Spray:** A dual-action, bio-fermented organic fertilizer enriched with neem botanical extracts for high-yield soil restoration and natural crop pest/parasite repulsion.
-2. **Pro-Feed Larval Meal:** A high-protein (40%+ crude protein) feed concentrate derived from Black Soldier Fly Larvae (*Hermetia illucens*).
+Stationed directly at municipal slaughterhouses (Baseline Node: Kumba Central Abattoir; 8 head/day operational baseline, 15 head/day total capacity), the hub intercepts bovine blood effluent and wet rumen content before environmental discharge, transforming high-risk waste into two commercial organic inputs:
+1. **Terra-Gold Foliar Spray:** A dual-action, bio-fermented organic fertilizer and botanical biopesticide enriched with neem extract (*Azadirachta indica*) for high-yield soil restoration and crop protection.
+2. **Pro-Feed Protein & Organic Bio-Compost Meal:** A highly bioavailable protein and mineral concentrate derived from upcycled blood heme-protein and stabilized rumen matrix for soil conditioning and livestock feed formulation.
 
 ---
 
 ## Technical System Architecture
 
 [ Kumba Abattoir Intercept ]
-(15 Cattle/Day Capacity)
+(8-15 Cattle/Day Capacity)
 │
 ▼
 ┌────────────────────────────────────────────────────────┐
-│               BIOTRACE HUB CONTAINER UNIT               │
-│  - 40ft High-Cube Chassis Elevated on 1.5m Steel Legs   │
-│  - Dual-Stream Processing: Blood & Wet Rumen Substrates │
+│               BIOTRACE HUB CONTAINER UNIT              │
+│  - 40ft High-Cube Chassis Elevated on 1.5m Steel Legs  │
+│  - Dual-Stream Processing: Blood & Wet Rumen Substrates│
 └───────────┬────────────────────────────────┬───────────┘
-│                                │
-▼                                ▼
+            │                                │
+            ▼                                ▼
 [ Liquid Stream Processing ]      [ Solid Stream Processing ]
-• Neem-Botanical Fermentation     • BSFL Bioconversion
-• Thermal Kill (72°C) & pH < 4.0  • Dynamic Solar-Thermal Drying
-• 0.2µm Ceramic Micro-Filtration  • High-Protein Defatting
+• Biological/Acid pH < 4.0        • Rumen De-watering & Drying
+• Thermal Kill (72°C / 30 Min)    • Heme-Protein Chelation
+• 0.2µm Ceramic Micro-Filtration  • Organic Composting & Milling
 │                                │
 ▼                                ▼
 ┌───────────────────────────┐    ┌───────────────────────────┐
-│ Terra-Gold Foliar Spray   │    │ Pro-Feed Larval Meal      │
-│ (Bio-Fertilizer + Anti-   │    │ (Poultry & Aquaculture    │
-│ Parasitic Crop Protectant)│    │  Protein Concentrate)     │
+│ Terra-Gold Foliar Spray   │    │ Pro-Feed Bio-Compost      │
+│ (Bio-Fertilizer + Foliar  │    │ (Organic Mineral & Protein│
+│ Biopesticide Protection)  │    │  Soil Conditioner Meal)   │
 └───────────────────────────┘    └───────────────────────────┘
-
 
 ---
 
-## Core Features & Upgraded Technical Specifications
+## Core Features & Technical Specifications
 
-* **Dual-Action Terra-Gold Foliar Formulation:** Combines organic NPK/micronutrients with cold-pressed neem (*Azadirachta indica*) bio-fermentation to deliver both crop nutrition and natural foliar pest/parasite deterrence.
-* **Elevated Modular Chassis:** 40ft High-Cube container mounted on 1.5m stilted steel framing to prevent flooding and allow gravity-assisted waste processing.
-* **3-Stage Biosecurity & Pathogen Inactivation:**
-  1. *Acidification:* Biological/organic reduction to pH < 4.0.
-  2. *Thermal Pasteurization:* Solar-thermal jacketed heating to 72°C.
-  3. *Purification:* 0.2µm ceramic microfiltration skid to guarantee pathogen-free liquid inputs.
-* **Tri-Tiered Solar Hybrid Power:** 12 kWp PV array, 15 kWh LiFePO4 battery storage, and 10 kVA automated standby generator.
-* **Public-Private Partnership (PPP) Governance:** Operates under formal municipal agreement with Kumba City Council, legally protected by Notarial and High Court certification.
+* **Dual-Action Terra-Gold Foliar Formulation:** Combines organic NPK/micronutrients with bio-fermented neem botanical extract to deliver both canopy nutrition and natural foliar pest/parasite deterrence.
+* **Elevated Modular Chassis:** 40ft High-Cube container mounted on 1.5m stilted heavy steel framing to prevent flood inundation and enable gravity-assisted processing.
+* **4-Stage Biosecurity & Pathogen Inactivation:**
+  1. *Acidification:* Biological/organic reduction to pH ≤ 4.0.
+  2. *Thermal Pasteurization:* Solar-thermal jacketed heating to 72°C for 30 minutes.
+  3. *Purification:* 0.2µm ceramic microfiltration skid to guarantee pathogen elimination.
+  4. *QA Hold:* Mandatory ATP bioluminescence batch swab testing prior to warehouse release.
+* **Tri-Tiered Off-Grid Solar Hybrid Power:** 12 kWp PV array, 15 kWh LiFePO4 battery bank, and 10 kVA automated standby diesel generator.
+* **Public-Private Partnership (PPP) Governance:** Operates under a binding, multi-year PPP contract with Kumba City Council, legally protected by Notarial (*Notaire*) attestation and High Court registration.
 
 ---
 
 ## Repository Structure
 ```text
 ├── hardware-design/     # Container layout, stilted frame & CAD blueprints
-├── biosecurity-sops/    # Step-by-step protocols for pH < 4.0, 72°C heat kill & ATP testing
+├── biosecurity-sops/    # Protocols for pH ≤ 4.0, 72°C heat kill & ATP testing
 ├── formulation/         # Substrate mixing ratios (blood/rumen) & neem extraction guidelines
-├── docs/                # PPP agreement template, Master Dossier & Municipal MOU
+├── docs/                # PPP agreement template, 10-Chapter Master Dossier & Municipal MOU
 └── README.md            # Repository overview
 Project Governance & Ownership
-Developer: WillsMkt Global / BioTrace Hubs Organization
+Developer: WillsMkt Organization / BioTrace Hubs
 
 Official Website: www.willsmkt.pro
 
 Lead Architect: William A. Akemfor
 
-Pilot Location: Kumba Municipal Abattoir, Meme Department, South West Region, Cameroon
+Pilot Location: Kumba Municipal Abattoir, Meme Department, Southwest Region, Cameroon
 
 License
 Distributed under the MIT License. Open-hardware documentation for sustainable agricultural scaling.
