@@ -96,10 +96,10 @@ Execution of a **3-to-6-month Cost-Capped Direct-Cost Shared Research Partnershi
 
 ## 💰 FINANCIAL SUMMARY (KUMBA PILOT NODE)
 
-* **Deployed CapEx:** $31,298,400 \text{ XAF}$ (~$\$52,164 \text{ USD}$)
-* **Annual Operating OpEx:** $12,450,000 \text{ XAF/year}$ (~$\$20,750 \text{ USD}$)
-* **Annual Gross Revenue Yield:** $48,708,000 \text{ XAF/year}$ (~$\$81,180 \text{ USD}$)
-* **Net Operating Cash Flow:** $+36,258,000 \text{ XAF/year}$ (~$\$60,430 \text{ USD}$)
+* **Deployed CapEx:**31,298,400 XAF (~$52,164 USD)
+* **Annual Operating OpEx:** 12,450,000 XAF/year (~$20,750 USD)
+* **Annual Gross Revenue Yield:** 48,708,000 XAF/year (~$81,180 USD)
+* **Net Operating Cash Flow:** +36,258,000 XAF/year (~+$60,430 USD)
 * **Simple Payback Period:** **11 Months** (Full operational break-even within Year 1)
 
 ---
